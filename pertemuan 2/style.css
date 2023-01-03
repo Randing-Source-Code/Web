@@ -1,0 +1,61 @@
+*{
+    margin:0px;
+    font-family:Cambria;
+}
+
+body{
+    background-color: rgb(230, 230, 230);
+}
+
+header{
+    background-color: rgb(0, 55, 183);
+    padding: 15px 0px 15px 25px;
+    color: white;
+}
+
+nav{
+    background-color: rgb(0, 162, 108);
+    padding: 10px 0px 10px 25px; 
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+
+nav a:hover{
+    background-color: yellow;
+    color: black;
+    transition: 1s;
+}
+
+.container{
+    background-color: white;
+    padding: 20px 30px;
+    margin: 60px 100px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 3px 4px 10px 2px rgb(107, 107, 107);
+}
+
+.container h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.atas{
+    margin-bottom: 10px;
+}
+
+.gambar{
+    text-align: center;
+}
+
+footer{
+    color: white;
+    padding: 15px 0px 40px 40px;
+    background-color: rgb(118, 118, 118);
+}
